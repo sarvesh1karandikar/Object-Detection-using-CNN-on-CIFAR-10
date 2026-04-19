@@ -9,6 +9,22 @@ A convolutional neural network (CNN) image classifier trained on CIFAR-10, achie
 
 ---
 
+## Quick Start
+
+### Train the model (one-time, ~10 min on GPU / 60 min on CPU)
+```bash
+pip install -r requirements.txt
+python train.py
+```
+
+### Run the Gradio demo
+```bash
+python app.py
+```
+Then open http://localhost:7860 and upload any image.
+
+---
+
 ## What This Does
 
 This project builds and trains a CNN to classify 32x32 colour images into one of 10 CIFAR-10 classes:
