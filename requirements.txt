@@ -1,0 +1,15 @@
+# Core ML framework (TF 1.x — not compatible with TF 2.x without migration)
+tensorflow==1.14.0
+
+# Numerical computing
+numpy>=1.16.0
+
+# Visualisation
+matplotlib>=3.0.0
+
+# Jupyter environment
+jupyter>=1.0.0
+ipython>=7.0.0
+
+# Data download utility (used by get_datasets.sh via wget; this covers Python-side HTTP if needed)
+requests>=2.21.0
